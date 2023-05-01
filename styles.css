@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    font: bold 18px/1.4 'Gotham', sans-serif;
+    background: #FFF6D7 !important;
+    overflow: auto;
+  }
+
+header {
+  margin: 0;
+  /* font-family: gotham */
+  font: bold 20px/2 'Gotham', sans-serif;
+  background: transparent !important;
+}
+
+  ul { 
+    margin: 2px auto 0; 
+    padding: 0px; 
+    list-style: none; 
+    display: table;
+    width: 400px;
+    text-align: right;
+  }
+  li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 0px 0;
+  }
+  a {
+    color: #452300 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    background: #fff8dc !important;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #452300;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  
+  @media screen and (max-height: 300px) {
+      ul {
+          margin-top: 40px;
+      }
+  }
+  h1,h2,h3,h4,h5,h6{
+    color: #452300 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-family: 'Gotham', sans-serif;
+    
+    display: inline-block;
+    padding: 2px 20px;
+    position: relative;
+  }
+
+  p {
+    display: inline-block;
+    padding: 2px 20px;
+    position: relative;
+    font-family: 'Gotham', sans-serif;
+  }
+  
+.section{
+    color: #452300 !important;
+    text-align:left;
+    position: relative;
+    height: 1500 px;
+
+    padding-left:4%;
+    padding-right:4%;
+    padding-bottom: 3%;
+}
+
+.row {
+  padding: 2px 20px;
+}
+
+mark {
+  background-color: yellow;
+  color: #452300 !important;
+}
+
+.card{
+
+  transition: all 0.2s ease;
+
+}
+
+.card:hover{
+
+  box-shadow: 5px 6px 6px 2px #ACACAA ;
+  transform: scale(1.05);
+}
+
+.icon{
+  transition: all 0.5s ease;
+
+}
+
+.icon:hover {
+  /* box-shadow: 1px 2px 2px 1px #ACACAA; */
+  transform: scale(1.5);
+
+}
+
+.btn {
+  color: #452300 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-family: 'Gotham', sans-serif;
+}
